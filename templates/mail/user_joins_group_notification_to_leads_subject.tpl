@@ -1,0 +1,1 @@
+{* $Id: user_joins_group_notification_to_leads_subject.tpl 62177 2017-04-10 06:06:43Z drsassafras $ *}{$mail_real} ({$mail_user}) {tr}user joined{/tr} - {$prefs.mail_template_custom_text}{$mail_group}

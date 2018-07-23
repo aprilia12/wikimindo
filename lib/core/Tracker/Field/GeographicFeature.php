@@ -1,0 +1,88 @@
+<?php
+// (c) Copyright 2002-2016 by authors of the Tiki Wiki CMS Groupware Project
+//
+// All Rights Reserved. See copyright.txt for details and a complete list of authors.
+// Licensed under the GNU LESSER GENERAL PUBLIC LICENSE. See license.txt for details.
+// $Id: GeographicFeature.php 64622 2017-11-18 19:34:07Z rjsmelo $
+
+/**
+ * Handler class for geographic features (points, lines, polygons)
+ *
+ * Letter key: ~GF~
+ *
+ */
+class Tracker_Field_GeographicFeature extends Tracker_Field_Abstract implements Tracker_Field_Synchronizable, Tracker_Field_Indexable
+{
+	public static function getTypes()
+	{
+		return [
+			'GF' => [
+				'name' => tr('Geographic Feature'),
+				'description' => tr('Stores a geographic feature on a map, allowing paths (LineString) and boundaries (Polygon) to be drawn on a map and saved.'),
+				'help' => 'Geographic feature Tracker Field',
+				'prefs' => ['trackerfield_geographicfeature'],
+				'tags' => ['advanced'],
+				'default' => 'n',
+				'params' => [
+				],
+			],
+		];
+	}
+
+	function getFieldData(array $requestData = [])
+	{
+		if (isset($requestData[$this->getInsertId()])) {
+			$value = $requestData[$this->getInsertId()];
+		} else {
+			$value = $this->getValue();
+		}
+
+		return [
+			'value' => $value,
+		];
+	}
+
+	function renderInput($context = [])
+	{
+		return tr('Feature cannot be set or modified through this interface.');
+	}
+
+	function renderOutput($context = [])
+	{
+		return tr('Feature cannot be viewed.');
+	}
+
+	function importRemote($value)
+	{
+		return $value;
+	}
+
+	function exportRemote($value)
+	{
+		return $value;
+	}
+
+	function importRemoteField(array $info, array $syncInfo)
+	{
+		return $info;
+	}
+
+	function getDocumentPart(Search_Type_Factory_Interface $typeFactory)
+	{
+		return [
+			'geo_located' => $typeFactory->identifier('y'),
+			'geo_feature' => $typeFactory->identifier($this->getValue()),
+			'geo_feature_field' => $typeFactory->identifier($this->getConfiguration('permName')),
+		];
+	}
+
+	function getProvidedFields()
+	{
+		return ['geo_located', 'geo_feature', 'geo_feature_field'];
+	}
+
+	function getGlobalFields()
+	{
+		return [];
+	}
+}

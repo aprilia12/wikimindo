@@ -1,0 +1,28 @@
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# -- Always Allow These File Types -- #
+	RewriteRule "\.(jpe?g|png|ico|gif|svgz?|ttf|eot|woff2?|otf|js|css|html)$" "-" [PT,L]
+
+	# -- Allow Access to files used by Developer Dubugging Tools -- #
+	RewriteRule "\.(map|less|scss)$" "-" [PT,L]
+
+	# -- Vendor Exception List -- #
+	# These are file types by vendor file that will bypass the default filtering
+	#
+	# If you are adding a new vendor that needs browser access, adding a file
+	#  type exception will be required.
+
+	RewriteRule "^(vendor/player/).*/.*\.swf$" "-" [PT,L]
+	RewriteRule "^(vendor/fortawesome/).*/.*\.swf$" "-" [PT,L]
+	RewriteRule "^(vendor/jquery/).*/.*\.swf$" "-" [PT,L]
+	RewriteRule "^(vendor/studio-42/).*/.*\.wav$" "-" [PT,L]
+
+	# -- Deny Everything Not Matched Above -- #
+	RewriteRule "/*" "-" [F]
+
+</IfModule>
+
+# -- Prevent Directory Browsing -- #
+Options -Indexes

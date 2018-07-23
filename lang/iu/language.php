@@ -1,0 +1,7 @@
+<?php
+
+
+
+$lang = [
+"test" => "test",
+];

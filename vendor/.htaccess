@@ -1,0 +1,17 @@
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	# -- Always Allow These File Types -- #
+	RewriteRule "\.(jpe?g|png|ico|gif|svgz?|ttf|eot|woff2?|otf|js|css)$" "-" [PT,L]
+
+	# -- Allow Access to files used by Developer Dubugging Tools -- #
+	RewriteRule "\.(map|less|scss)$" "-" [PT,L]
+
+	# -- Deny Everything Not Matched Above -- #
+	RewriteRule "/*" "-" [F]
+
+</IfModule>
+
+# -- Prevent Directory Browsing -- #
+Options -Indexes
