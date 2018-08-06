@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 05:05:02
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:42
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\prefs\multiselector.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10417184955b51515ece8f31-14134596%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:9404429145b63b7c2f15ae5-56037858%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10417184955b51515ece8f31-14134596',
+  'nocache_hash' => '9404429145b63b7c2f15ae5-56037858',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b51515ecf8939_49156793',
+  'unifunc' => 'content_5b63b7c2f254f8_33857280',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b51515ecf8939_49156793')) {function content_5b51515ecf8939_49156793($_smarty_tpl) {?><?php if (!is_callable('smarty_function_object_selector_multi')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.object_selector_multi.php';
+<?php if ($_valid && !is_callable('content_5b63b7c2f254f8_33857280')) {function content_5b63b7c2f254f8_33857280($_smarty_tpl) {?><?php if (!is_callable('smarty_function_object_selector_multi')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.object_selector_multi.php';
 if (!is_callable('smarty_modifier_simplewiki')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.simplewiki.php';
 ?><div class="form-group adminoptionbox preference clearfix form-group <?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['p']->value['tagstring']);
 if (isset($_REQUEST['highlight'])&&$_REQUEST['highlight']==$_smarty_tpl->tpl_vars['p']->value['preference']) {?> highlight<?php }?>">

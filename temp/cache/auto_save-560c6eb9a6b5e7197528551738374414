@@ -1,0 +1,19 @@
+__Instructions about this "Random_header_images_14" Profile__:
+
+Remember that:
+
+#default configuration uses images at 800x150px, resized at 980px wide by the header module to fit in the 990px default configuration for the fixed site width
+#a different random image is shown at each page load
+#it uses elFinder modern file galery manager (with drag & drop capabilities!) by default
+#you can tweak the module and file gallery defaults as needed for your needs
+**[tiki-list_file_gallery.php?galleryId=5|File Gallery]
+::{img src="http://tiki.org/display514" link="http://profiles.tiki.org/Random_header_images" alt="Random Header Images" desc="Random Header Images Profile" align="center" imalign="center" width="400"}::
+
+And remember that you can extend this profile, adding new sets of pictures to be shown in the header, etc.!:
+
+*https://profiles.tiki.org/Random_header_images_14
+
+Share your ideas and proposals in the tikiwiki-users or tikiwiki-devel list!:
+
+*https://tiki.org/Mailing+Lists
+ 

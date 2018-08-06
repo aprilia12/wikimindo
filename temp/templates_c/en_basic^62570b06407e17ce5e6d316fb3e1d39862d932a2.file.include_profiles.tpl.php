@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:53:05
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:08:12
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\admin\include_profiles.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5227668235b5140816974e8-16469327%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:15094612645b63b90c11d438-40377897%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5227668235b5140816974e8-16469327',
+  'nocache_hash' => '15094612645b63b90c11d438-40377897',
   'function' => 
   array (
   ),
@@ -62,9 +62,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b51408176a410_29094283',
+  'unifunc' => 'content_5b63b90c1ffd63_73559372',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b51408176a410_29094283')) {function content_5b51408176a410_29094283($_smarty_tpl) {?><?php if (!is_callable('smarty_block_remarksbox')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.remarksbox.php';
+<?php if ($_valid && !is_callable('content_5b63b90c1ffd63_73559372')) {function content_5b63b90c1ffd63_73559372($_smarty_tpl) {?><?php if (!is_callable('smarty_block_remarksbox')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.remarksbox.php';
 if (!is_callable('smarty_block_tabset')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tabset.php';
 if (!is_callable('smarty_block_tab')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tab.php';
 if (!is_callable('smarty_function_ticket')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.ticket.php';
@@ -75,9 +75,9 @@ if (!is_callable('smarty_function_icon')) include 'C:/xampp/htdocs/tikiwiki/tiki
 if (!is_callable('smarty_function_preference')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.preference.php';
 ?>
 <?php ob_start();?><?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['ticket']->value,'url');?>
-<?php $_tmp2=ob_get_clean();?><?php ob_start();
-echo $_tmp2;
-$_tmp3=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["baseURI"] = new Smarty_variable(((string)$_SERVER['REQUEST_URI'])."&ticket=".$_tmp3."&daconfirm=y", null, 0);?>
+<?php $_tmp1=ob_get_clean();?><?php ob_start();
+echo $_tmp1;
+$_tmp2=ob_get_clean();?><?php $_smarty_tpl->tpl_vars["baseURI"] = new Smarty_variable(((string)$_SERVER['REQUEST_URI'])."&ticket=".$_tmp2."&daconfirm=y", null, 0);?>
 <?php echo $_smarty_tpl->tpl_vars['headerlib']->value->add_jsfile("lib/jquery_tiki/tiki-profile.js");?>
 
 

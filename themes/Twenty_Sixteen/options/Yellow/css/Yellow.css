@@ -1,0 +1,219 @@
+/* This is the Yellow theme option for the Almost2016 theme for Tiki Wiki CMS Groupware. */
+
+html {
+    -webkit-box-shadow: inset 0px 0px 0px 21px #393722;
+    -moz-box-shadow: inset 0px 0px 0px 21px #393722;
+    box-shadow: inset 0px 0px 0px 21px #393722;
+}
+
+body,
+body.fullscreen,
+.thumbnail,
+#autosave_preview,
+.popover,
+.popover-title,
+.breadcrumb > .active,
+.table .table,
+pre {
+    background: #feee94;
+    color: #383722;
+}
+
+
+.dropdown-menu,
+.cssmenu_horiz ul li a,
+.cssmenu_vert ul li a { background: #4d545c; }
+
+.breadcrumb > .active { color: #383722; }
+
+/* Popover arrow */
+.popover.top > .arrow:after { border-top-color: #feee94; }
+.popover.right > .arrow:after {	border-right-color: #feee94; }
+.popover.bottom > .arrow:after { border-bottom-color: #feee94; }
+.popover.left > .arrow:after {	border-left-color: #feee94; }
+
+.navbar.navbar-default.navbar-fixed-top {
+    background: #feee94;
+    border: 21px solid #393722;
+    border-bottom: none;
+    -webkit-box-shadow: 0px 4px 8px 0px #393722;
+    -moz-box-shadow: 0px 4px 8px 0px#393722;
+    box-shadow: 0px 4px 8px 0px #393722;
+}
+
+a,
+a:visited,
+.btn-link,
+.table a,
+.topbar > a,
+.topbar .navbar-default .navbar-nav > li > a,
+.topbar .nav > li > a,
+.navbar-default .navbar-brand,
+.table a,
+.navbar-default .navbar-nav > li > a,
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after,
+.pagination > li > a, .pagination > li > span,
+.dropdown-menu > li > a,
+.autotoc * {
+    color: #7f7d70;
+}
+
+.pager li > a, .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #f4e48b;
+    border: 1px solid #e9d980;
+    border-radius: 15px;
+}
+
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after { border-left-color: #7f7d70; }
+
+.topbar .cssmenu_horiz.sf-arrows > .menuSection0 > .sf-with-ul::after,
+.sf-arrows .sf-with-ul::after { border-top-color: #7f7d70; }
+
+.tiki .nav a,
+.fgal_top_bar a,
+#fgalexplorer a {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    color: #7f7d70;
+}
+
+.sf-arrows .sf-with-ul::after {
+    border-top-color: #7f7d70;
+}
+
+/*.topbar > a:hover,
+.topbar .navbar-default .navbar-nav > li > a:hover,
+.topbar .nav > li > a:hover,
+.topbar > a:focus,
+.topbar .navbar-default .navbar-nav > li > a:focus,
+.topbar .nav > li > a:focus,*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+
+.tiki .nav a:hover,
+.fgal_top_bar a:hover,
+#fgalexplorer a:hover,
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #939184;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    background: transparent;
+    border-color: #939184;
+}
+
+.dropdown-menu,
+.cssmenu_horiz ul li a,
+.cssmenu_vert ul li a,
+.cssmenu_horiz ul li.selected a,
+.cssmenu_vert ul li.selected a,
+.cssmenu_horiz ul li a:hover,
+.cssmenu_vert ul li a:hover {
+    color: #404040;
+    background-color: #feee94;
+}
+
+.sitetitle > a,
+.pagetitle > a,
+a.pagetitle,
+.lead {
+    color: #7f7d70;
+}
+
+blockquote,
+.quote { border-left: 5px solid #383722; }
+
+blockquote.pull-right { border-right: 5px solid #383722; }
+
+hr { border-top: 1px solid #383722; }
+.dropdown-menu .divider { background-color: #383722; }
+
+.entry-content blockquote.alignleft {
+    border: solid #7f7d70;
+    border-width: 4px 0 0 0;
+}
+
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after { border-left-color: #acadb1; }
+
+.topbar .cssmenu_horiz.sf-arrows > .menuSection0 > .sf-with-ul::after,
+.sf-arrows .sf-with-ul::after { border-top-color: #acadb1; }
+
+.well {
+    background: #eede86;
+    border: 1px solid #eede86;
+}
+
+.jumbotron,
+.list-group-item { background: #eede86; }
+.list-group-item { border-color: #cccccc; }
+
+.panel-default,
+.module.panel-default { border-top-color: #383722; }
+.panel-default .panel-title { color: #383722; }
+.panel-footer { background: #4d545c; }
+
+fieldset {
+    border: 1px solid #7f7d70;
+}
+
+legend {
+    color: #383722;
+}
+
+.help-block,
+blockquote footer, blockquote small, blockquote .small {
+    color: #383722;
+}
+
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+    color: #4d8c4e;
+}
+
+.module.panel-default {
+    border-top: 4px solid #7f7d70;
+}
+
+.panel-default { border-top-color: #7f7d70; }
+.panel-default .panel-title,
+.panel-primary > .panel-heading,
+.panel-default > .panel-heading { color: #7f7d70; }
+.panel-footer { background: #feee94; }
+
+.text-muted { color: #3d3c18; }
+.text-primary { color: #22638f; }
+
+.autotoc * {
+    color: #383722;
+}
+
+.tiki .table {
+    color: #959494;
+    border-color: #616a73;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th { border-color: #616a73; }
+
+.table > thead > tr > th { border-bottom-color: #616a73; }
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #f4e48b;
+    border-color: #e9d980;
+}
+
+.btn-default:hover, button:hover, button:focus, input.button, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #7f7d70;
+    border-color: #7f7d70; }

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-30 08:57:53
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-06 09:14:43
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\mail\plugin_pending_notification.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5834553225b5eb6f13b0280-54763664%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3625532215b67f563362489-65871770%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5834553225b5eb6f13b0280-54763664',
+  'nocache_hash' => '3625532215b67f563362489-65871770',
   'function' => 
   array (
   ),
@@ -29,9 +29,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b5eb6f13e6d97_72739829',
+  'unifunc' => 'content_5b67f5633c00a5_74192237',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b5eb6f13e6d97_72739829')) {function content_5b5eb6f13e6d97_72739829($_smarty_tpl) {?><?php if (!is_callable('smarty_function_object_link')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.object_link.php';
+<?php if ($_valid && !is_callable('content_5b67f5633c00a5_74192237')) {function content_5b67f5633c00a5_74192237($_smarty_tpl) {?><?php if (!is_callable('smarty_function_object_link')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.object_link.php';
 if (!is_callable('smarty_block_tr')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tr.php';
 ?><?php ob_start();?><?php echo smarty_function_object_link(array('type'=>$_smarty_tpl->tpl_vars['type']->value,'id'=>$_smarty_tpl->tpl_vars['objectId']->value),$_smarty_tpl);?>
 <?php $_tmp1=ob_get_clean();?><?php $_smarty_tpl->smarty->_tag_stack[] = array('tr', array('_0'=>$_smarty_tpl->tpl_vars['plugin_name']->value,'_1'=>$_tmp1)); $_block_repeat=true; echo smarty_block_tr(array('_0'=>$_smarty_tpl->tpl_vars['plugin_name']->value,'_1'=>$_tmp1), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>

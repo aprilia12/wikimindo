@@ -1,0 +1,73 @@
+// $Id$
+// This file is for additional LESS rules beyond what are in variables.less.
+// Image path example:
+// @imagePath: ~"../images/";
+// body {
+//	background-image: url('@{imagePath}bg.jpg');
+// }
+
+// a { text-decoration: underline; }
+a:visited { color: #551A8B; } //#800080;  //purple
+a:active,
+li.active a,
+li.selected a { /*color: #ff0000;*/ text-decoration: underline; } //red
+
+a:hover,
+.nav > li > a:hover,
+.cssmenu_horiz ul li a:hover,
+.cssmenu_vert ul li a:hover,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus { text-decoration: underline; }
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+li.active a:hover,
+li.selected a:hover { cursor: default; }
+
+
+
+.navbar-fixed-top .navbar-default { border: none; }
+
+blockquote { border-left-width: 1px; border-left-style: dashed; }
+blockquote.pull-right { border-right-width: 1px; border-right-style: dashed; }
+
+.panel-heading,
+.popover-title {
+	border-bottom-style: dashed;
+}
+
+.popover-title,
+.modal-header,
+.dropdown-menu .divider {
+	border-bottom: 1px dashed @text-color;
+}
+
+.well { border-style: dashed; }
+
+.btn,
+.btn.btn-default {
+	border: double;
+	border-width: 1px;
+}
+
+.btn-default:hover {
+	background: #fff;
+	color: @link-hover-color;
+	border-color: @link-hover-color;
+	text-decoration: none;
+}
+
+.btn-link { border: none; }
+
+code,
+kbd,
+pre,
+samp,
+.tiki .ui-widget,
+.tiki .ui-widget input,
+.tiki .ui-widget select,
+.tiki .ui-widget textarea,
+.tiki .ui-widget button { font-family: "Source Code Pro"; }

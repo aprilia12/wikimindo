@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-23 05:47:34
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 05:33:34
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\comment\post.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3603777635b554fd6206881-20258026%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:7622862745b63cd0e0b8a90-23835349%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3603777635b554fd6206881-20258026',
+  'nocache_hash' => '7622862745b63cd0e0b8a90-23835349',
   'function' => 
   array (
   ),
@@ -35,9 +35,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b554fd62d97b8_62917977',
+  'unifunc' => 'content_5b63cd0e226498_10225652',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b554fd62d97b8_62917977')) {function content_5b554fd62d97b8_62917977($_smarty_tpl) {?><?php if (!is_callable('smarty_block_title')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.title.php';
+<?php if ($_valid && !is_callable('content_5b63cd0e226498_10225652')) {function content_5b63cd0e226498_10225652($_smarty_tpl) {?><?php if (!is_callable('smarty_block_title')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.title.php';
 if (!is_callable('smarty_function_object_link')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.object_link.php';
 if (!is_callable('smarty_function_service')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.service.php';
 if (!is_callable('smarty_block_remarksbox')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.remarksbox.php';
@@ -137,8 +137,8 @@ $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_block_textar
 						<?php $_smarty_tpl->tpl_vars['showmandatory'] = new Smarty_variable('y', null, 0);?>
 						<?php /*  Call merged included template "antibot.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('antibot.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '3603777635b554fd6206881-20258026');
-content_5b554fd626c198_09525642($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('antibot.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7622862745b63cd0e0b8a90-23835349');
+content_5b63cd0e1ac693_08647897($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "antibot.tpl" */?>
 					<?php }?>
@@ -180,9 +180,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php $_smarty_tpl->smarty->loadPlugin('Smarty_Internal_Debug'); Smarty_Internal_Debug::display_debug($_smarty_tpl); ?>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-23 05:47:34
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 05:33:34
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\antibot.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b554fd626c198_09525642')) {function content_5b554fd626c198_09525642($_smarty_tpl) {?><?php if (!is_callable('smarty_function_button')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.button.php';
+<?php if ($_valid && !is_callable('content_5b63cd0e1ac693_08647897')) {function content_5b63cd0e1ac693_08647897($_smarty_tpl) {?><?php if (!is_callable('smarty_function_button')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.button.php';
 if (!is_callable('smarty_block_jq')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.jq.php';
 ?>
 <?php if (empty($_smarty_tpl->tpl_vars['user']->value)||$_smarty_tpl->tpl_vars['user']->value=='anonymous'||!empty($_smarty_tpl->tpl_vars['showantibot']->value)) {?>

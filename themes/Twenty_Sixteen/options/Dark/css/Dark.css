@@ -1,0 +1,215 @@
+/* This is the Dark theme option for the Almost2016 theme for Tiki Wiki CMS Groupware. */
+html {
+    -webkit-box-shadow: inset 0 0 0 21px #252628;
+    -moz-box-shadow: inset 0 0 0 21px #252628;
+    box-shadow: inset 0 0 0 21px #252628;
+}
+
+body,
+body.fullscreen,
+.thumbnail,
+#autosave_preview,
+.breadcrumb > .active,
+.table .table,
+pre {
+    color: #e5e5e5;
+    background: #1a1a1a;
+}
+
+.popover,
+.popover-title,
+.modal-content { background: #202020; }
+
+/* Popover arrow */
+.popover.top > .arrow:after { border-top-color: #202020; }
+.popover.right > .arrow:after {	border-right-color: #202020; }
+.popover.bottom > .arrow:after { border-bottom-color: #202020; }
+.popover.left > .arrow:after {	border-left-color: #202020; }
+
+a,
+a:visited,
+.btn-link,
+.table a,
+.topbar > a,
+.topbar .navbar-default .navbar-nav > li > a,
+.topbar .nav > li > a,
+.navbar-default .navbar-brand,
+.table a,
+.navbar-default .navbar-nav > li > a,
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after,
+.pagination > li > a, .pagination > li > span,
+.dropdown-menu > li > a,
+.autotoc * {
+    color: #9cdff8;
+}
+
+.pager li > a, .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #202020;
+    border: 1px solid #2e2e2e;
+    border-radius: 15px;
+}
+
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after { border-left-color: #9cdff8; }
+
+.topbar .cssmenu_horiz.sf-arrows > .menuSection0 > .sf-with-ul::after,
+.sf-arrows .sf-with-ul::after { border-top-color: #9cdff8; }
+
+.tiki .nav a,
+.fgal_top_bar a,
+#fgalexplorer a {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    color: #ffffff;
+}
+
+.sf-arrows .sf-with-ul::after {
+    border-top-color: #ffffff;
+}
+
+/*.topbar > a:hover,
+.topbar .navbar-default .navbar-nav > li > a:hover,
+.topbar .nav > li > a:hover,
+.topbar > a:focus,
+.topbar .navbar-default .navbar-nav > li > a:focus,
+.topbar .nav > li > a:focus,*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+
+.tiki .nav a:hover,
+.fgal_top_bar a:hover,
+#fgalexplorer a:hover,
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #6babc4;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    background: transparent;
+    border-color: #6babc4;
+}
+
+.dropdown-menu,
+.cssmenu_horiz ul li a,
+.cssmenu_vert ul li a,
+.cssmenu_horiz ul li.selected a,
+.cssmenu_vert ul li.selected a,
+.cssmenu_horiz ul li a:hover,
+.cssmenu_vert ul li a:hover {
+    color: #404040;
+    background-color: #202020;
+}
+
+.sitetitle > a,
+.pagetitle > a,
+a.pagetitle,
+.lead {
+    color: #ffffff;
+}
+
+blockquote,
+.quote { border-left: 5px solid #ffffff; }
+
+blockquote.pull-right { border-right: 5px solid #ffffff; }
+
+hr { border-top: 1px solid #e5e5e5; }
+.dropdown-menu .divider { background-color: #e5e5e5; }
+
+.entry-content blockquote.alignleft {
+    border: solid #ffffff;
+    border-width: 4px 0 0 0;
+}
+
+.module.panel-default {
+    border-top: 4px solid #ffffff;
+}
+
+.well,
+.jumbotron {
+    background: #010101;
+    border-color: #000;
+}
+
+.panel-default { border-top-color: #e5e5e5; }
+.panel-default .panel-title,
+.panel-primary > .panel-heading,
+.panel-default > .panel-heading { color: #e5e5e5; }
+.panel-footer { background: #1a1a1a; }
+
+.layout_classic .header_container > .container,
+.layout_classic .middle.container,
+.layout_classic .footer_liner > .container {border-color: #e5e5e5;}
+
+.table-striped > tbody > tr:nth-of-type(2n+1),
+.list-group-item,
+.pagination > li > a {
+    background: #202020;
+    border-color: #616a73;
+}
+
+a.list-group-item .list-group-item-heading,
+button.list-group-item .list-group-item-heading {
+    color: #959494;
+}
+
+fieldset { border-color: #616a73; }
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #393939;
+    border-color: #393939;
+}
+
+.tiki .table {
+    color: #959494;
+    border-color: #616a73;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th { border-color: #616a73; }
+
+.table > thead > tr > th { border-bottom-color: #616a73; }
+
+.success th,
+.success td,
+.warning th,
+.warning td { color: #1a1a1a !important; }
+
+.table-hover > tbody > tr > td.info:hover,
+.table-hover > tbody > tr > th.info:hover,
+.table-hover > tbody > tr.info:hover > td,
+.table-hover > tbody > tr:hover > .info,
+.table-hover > tbody > tr.info:hover > th,
+.table-hover > tbody > tr > td.danger:hover,
+.table-hover > tbody > tr > th.danger:hover,
+.table-hover > tbody > tr.danger:hover > td,
+.table-hover > tbody > tr:hover > .danger,
+.table-hover > tbody > tr.danger:hover > th,
+.table-hover > tbody > tr:hover {
+    background-color: #555555;
+}
+
+.btn-primary { background-color: #75a2f8; }
+
+.btn-default,
+.btn-default:visited {
+    color: #ffffff;
+    background-color: #6bc8f8;
+    border-color: #6bc8f8;
+}
+
+.btn-default:hover, button:hover, button:focus, input.button, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #9cdff8;
+    border-color: #9cdff8; }
+
+.btn-link { background-color: transparent; }

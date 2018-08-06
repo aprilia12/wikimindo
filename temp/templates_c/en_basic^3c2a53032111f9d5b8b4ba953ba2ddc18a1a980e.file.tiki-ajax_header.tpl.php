@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-ajax_header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17963662515b513e89da0841-62983426%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3138699365b63b79bb0e873-16379989%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17963662515b513e89da0841-62983426',
+  'nocache_hash' => '3138699365b63b79bb0e873-16379989',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b513e89da46c6_89798625',
+  'unifunc' => 'content_5b63b79bb126f9_80333881',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b513e89da46c6_89798625')) {function content_5b513e89da46c6_89798625($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b63b79bb126f9_80333881')) {function content_5b63b79bb126f9_80333881($_smarty_tpl) {?>
 <?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_ajax']=='y') {?>
 <div id="ajaxLoading">Loading...</div>
 <div id="ajaxLoadingBG">&nbsp;</div>

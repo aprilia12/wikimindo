@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:53:05
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:42
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\prefs\textarea.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3022574445b51408178d698-47211932%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:6057536265b63b7c2970495-61119842%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3022574445b51408178d698-47211932',
+  'nocache_hash' => '6057536265b63b7c2970495-61119842',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b5140817b47a2_20816150',
+  'unifunc' => 'content_5b63b7c297c013_12813816',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b5140817b47a2_20816150')) {function content_5b5140817b47a2_20816150($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_simplewiki')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.simplewiki.php';
+<?php if ($_valid && !is_callable('content_5b63b7c297c013_12813816')) {function content_5b63b7c297c013_12813816($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_simplewiki')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.simplewiki.php';
 ?><div class="adminoptionbox preference form-group clearfix <?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['p']->value['tagstring']);
 if (isset($_REQUEST['highlight'])&&$_REQUEST['highlight']==$_smarty_tpl->tpl_vars['p']->value['preference']) {?> highlight<?php }?>" style="text-align: left;"><label class="control-label col-sm-4" for="<?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['p']->value['id']);?>
 "><?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['p']->value['name']);?>

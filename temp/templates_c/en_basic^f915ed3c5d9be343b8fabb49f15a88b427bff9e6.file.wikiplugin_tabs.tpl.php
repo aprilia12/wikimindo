@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-26 10:37:08
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-06 04:38:18
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\wiki-plugins\wikiplugin_tabs.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:12794942565b598834eeb737-80004826%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14952243085b67b49a87aed2-80814951%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '12794942565b598834eeb737-80004826',
+  'nocache_hash' => '14952243085b67b49a87aed2-80814951',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b598834f02e32_66898077',
+  'unifunc' => 'content_5b67b49a896457_10758658',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b598834f02e32_66898077')) {function content_5b598834f02e32_66898077($_smarty_tpl) {?><?php if (!is_callable('smarty_block_tabset')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tabset.php';
+<?php if ($_valid && !is_callable('content_5b67b49a896457_10758658')) {function content_5b67b49a896457_10758658($_smarty_tpl) {?><?php if (!is_callable('smarty_block_tabset')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tabset.php';
 if (!is_callable('smarty_block_tab')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tab.php';
 ?>
 <?php if (isset($_smarty_tpl->tpl_vars['is_slideshow']->value)&&$_smarty_tpl->tpl_vars['is_slideshow']->value=='y') {?>

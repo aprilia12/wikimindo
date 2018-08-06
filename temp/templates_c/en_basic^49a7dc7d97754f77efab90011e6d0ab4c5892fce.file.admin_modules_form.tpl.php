@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:45:24
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:13:49
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\admin_modules_form.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10592730475b513eb4276bc9-95373174%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:602424215b63ba5de514e5-00022206%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10592730475b513eb4276bc9-95373174',
+  'nocache_hash' => '602424215b63ba5de514e5-00022206',
   'function' => 
   array (
   ),
@@ -41,9 +41,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b513eb42f09c3_72904670',
+  'unifunc' => 'content_5b63ba5df1c712_88896156',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b513eb42f09c3_72904670')) {function content_5b513eb42f09c3_72904670($_smarty_tpl) {?><?php if (!is_callable('smarty_function_help')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.help.php';
+<?php if ($_valid && !is_callable('content_5b63ba5df1c712_88896156')) {function content_5b63ba5df1c712_88896156($_smarty_tpl) {?><?php if (!is_callable('smarty_function_help')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.help.php';
 if (!is_callable('smarty_block_tr')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tr.php';
 if (!is_callable('smarty_modifier_capitalize')) include 'C:\\xampp\\htdocs\\tikiwiki\\tiki-18.1\\vendor_bundled\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.capitalize.php';
 if (!is_callable('smarty_block_remarksbox')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.remarksbox.php';

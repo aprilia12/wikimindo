@@ -1,0 +1,189 @@
+/* This is the Red theme option for the Almost2016 theme for Tiki Wiki CMS Groupware. */
+html {
+    -webkit-box-shadow: inset 0px 0px 0px 21px #fcffff;
+    -moz-box-shadow: inset 0px 0px 0px 21px #fcffff;
+    box-shadow: inset 0px 0px 0px 21px #fcffff;
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+    background: #fe6659;
+    border: 21px solid #fcffff;
+    border-bottom: none;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(252,255,255,1);
+    -moz-box-shadow: 0px 4px 8px 0px rgba(252,255,255,1);
+    box-shadow: 0px 4px 8px 0px rgba(252,255,255,1);
+}
+
+body,
+body.fullscreen,
+.thumbnail,
+#autosave_preview,
+.popover,
+.popover-title,
+.breadcrumb > .active,
+.table .table,
+pre {
+    color: #3d262f;
+    background: #fe6659;
+}
+
+
+.dropdown-menu,
+.cssmenu_horiz ul li a,
+.cssmenu_vert ul li a { background: #4d545c; }
+
+.breadcrumb > .active { color: #ededed; }
+
+/* Popover arrow */
+.popover.top > .arrow:after { border-top-color: #fe6659; }
+.popover.right > .arrow:after {	border-right-color: #fe6659; }
+.popover.bottom > .arrow:after { border-bottom-color: #fe6659; }
+.popover.left > .arrow:after {	border-left-color: #fe6659; }
+
+/*.container { background: #fe6659; }
+*/
+a,
+a:visited,
+.btn-link,
+.table a,
+.topbar > a,
+.topbar .navbar-default .navbar-nav > li > a,
+.topbar .nav > li > a,
+.navbar-default .navbar-brand,
+.table a,
+.navbar-default .navbar-nav > li > a,
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after,
+.pagination > li > a, .pagination > li > span,
+.dropdown-menu > li > a,
+.autotoc * { color: #773331; }
+
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after { border-left-color: #773331; }
+
+.topbar .cssmenu_horiz.sf-arrows > .menuSection0 > .sf-with-ul::after,
+.sf-arrows .sf-with-ul::after { border-top-color: #773331; }
+
+.tiki .nav a,
+.fgal_top_bar a,
+#fgalexplorer a {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    color: #773331;
+}
+
+.sf-arrows .sf-with-ul::after {
+    border-top-color: #773331;
+}
+
+.tiki .nav a:hover,
+.fgal_top_bar a:hover,
+#fgalexplorer a:hover,
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #007acc;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus { background: transparent;}
+
+.dropdown-menu,
+.cssmenu_horiz ul li a,
+.cssmenu_vert ul li a,
+.cssmenu_horiz ul li.selected a,
+.cssmenu_vert ul li.selected a,
+.cssmenu_horiz ul li a:hover,
+.cssmenu_vert ul li a:hover {
+    color: #404040;
+    background-color: #d96d64;
+}
+
+.sitetitle > a,
+.pagetitle > a,
+a.pagetitle,
+.lead {
+    color: #773331;
+}
+
+blockquote { border-left: 5px solid #ededed; }
+
+blockquote.pull-right { border-right: 5px solid #ededed; }
+
+.entry-content blockquote.alignleft {
+    border: solid #773331;
+    border-width: 4px 0 0 0;
+}
+
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after { border-left-color: #acadb1; }
+
+.topbar .cssmenu_horiz.sf-arrows > .menuSection0 > .sf-with-ul::after,
+.sf-arrows .sf-with-ul::after { border-top-color: #acadb1; }
+
+.panel-default,
+.module.panel-default { border-top-color: #ededed; }
+.panel-default .panel-title { color: #ededed; }
+.panel-footer { background: #4d545c; }
+
+.well { background: #d96d64; }
+
+.jumbotron,
+.list-group-item { background: #d96d64; }
+
+fieldset {
+    border: 1px solid #773331;
+}
+
+.module.panel-default {
+    border-top: 4px solid #773331;
+}
+
+.panel-default { border-top-color: #422b32; }
+.panel-default .panel-title { color: #422b32; }
+.panel-footer { background: #f36659; }
+
+.text-muted { color: #8A7575; }
+.text-primary { color: #22638f; }
+
+.autotoc * {
+    color: #3d262f;
+}
+
+.btn-default,
+.btn-default:visited {
+    color: #b43b39;
+}
+
+.btn-default:hover,
+button:hover,
+button:focus,
+input.button,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #773331;
+    border-color: #773331; }
+
+.tiki .table {
+    color: #3d262f;
+    border-color: #fcffff;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th { border-color: #fcffff; }
+
+.table > thead > tr > th { border-bottom-color: #fcffff; }
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+
+.list-group-item { border-color: #cccccc; }
+
+.btn-default:hover, button:hover, button:focus, input.button, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #acadb1;
+    border-color: #acadb1; }

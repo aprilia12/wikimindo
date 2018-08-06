@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 05:04:20
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 10:56:25
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-searchindex.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11697054675b515134526107-56910730%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4389545595b6418b96e2074-86370312%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11697054675b515134526107-56910730',
+  'nocache_hash' => '4389545595b6418b96e2074-86370312',
   'function' => 
   array (
   ),
@@ -37,9 +37,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b51513459b420_90211379',
+  'unifunc' => 'content_5b6418b97bcca4_90930321',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b51513459b420_90211379')) {function content_5b51513459b420_90211379($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_body_attributes')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.html_body_attributes.php';
+<?php if ($_valid && !is_callable('content_5b6418b97bcca4_90930321')) {function content_5b6418b97bcca4_90930321($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_body_attributes')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.html_body_attributes.php';
 if (!is_callable('smarty_function_modulelist')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.modulelist.php';
 if (!is_callable('smarty_function_feedback')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.feedback.php';
 if (!is_callable('smarty_block_title')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.title.php';
@@ -100,8 +100,8 @@ Search<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_
 				
 <?php /*  Call merged included template "tiki-searchindex_form.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-searchindex_form.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '11697054675b515134526107-56910730');
-content_5b515134558d95_23851478($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-searchindex_form.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '4389545595b6418b96e2074-86370312');
+content_5b6418b974f684_69416792($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-searchindex_form.tpl" */?>
 
@@ -136,8 +136,8 @@ Search<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_
 				
 <?php /*  Call merged included template "tiki-searchindex_form.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-searchindex_form.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '11697054675b515134526107-56910730');
-content_5b515134558d95_23851478($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-searchindex_form.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '4389545595b6418b96e2074-86370312');
+content_5b6418b974f684_69416792($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-searchindex_form.tpl" */?>
 
@@ -175,8 +175,8 @@ Search<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_
 				
 <?php /*  Call merged included template "tiki-searchindex_form.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-searchindex_form.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '11697054675b515134526107-56910730');
-content_5b515134558d95_23851478($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-searchindex_form.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '4389545595b6418b96e2074-86370312');
+content_5b6418b974f684_69416792($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-searchindex_form.tpl" */?>
 
@@ -221,8 +221,8 @@ Search<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_
 				
 <?php /*  Call merged included template "tiki-searchindex_form.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-searchindex_form.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '11697054675b515134526107-56910730');
-content_5b515134558d95_23851478($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-searchindex_form.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '4389545595b6418b96e2074-86370312');
+content_5b6418b974f684_69416792($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-searchindex_form.tpl" */?>
 
@@ -260,9 +260,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php $_smarty_tpl->smarty->loadPlugin('Smarty_Internal_Debug'); Smarty_Internal_Debug::display_debug($_smarty_tpl); ?>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 05:04:20
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 10:56:25
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-searchindex_form.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b515134558d95_23851478')) {function content_5b515134558d95_23851478($_smarty_tpl) {?><?php if (!is_callable('smarty_block_filter')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.filter.php';
+<?php if ($_valid && !is_callable('content_5b6418b974f684_69416792')) {function content_5b6418b974f684_69416792($_smarty_tpl) {?><?php if (!is_callable('smarty_block_filter')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.filter.php';
 ?>
 <div class="margin-bottom-md nohighlight">
 	<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_search_show_search_box']=='y') {?>

@@ -1,0 +1,160 @@
+/* This is the Gray theme option for the Almost2016 theme for Tiki Wiki CMS Groupware. */
+
+html {
+    -webkit-box-shadow: inset 0px 0px 0px 21px #616a73;
+    -moz-box-shadow: inset 0px 0px 0px 21px #616a73;
+    box-shadow: inset 0px 0px 0px 21px #616a73;
+}
+
+body,
+body.fullscreen,
+.thumbnail,
+#autosave_preview,
+.popover,
+.popover-title,
+.breadcrumb > .active,
+.table .table,
+pre {
+    color: #ededed;
+    background: #4d545c;
+}
+
+
+.dropdown-menu,
+.cssmenu_horiz ul li a,
+.cssmenu_vert ul li a { background: #4d545c; }
+
+.breadcrumb > .active { color: #ededed; }
+
+/* Popover arrow */
+.popover.top > .arrow:after { border-top-color: #4d545c; }
+.popover.right > .arrow:after {	border-right-color: #4d545c; }
+.popover.bottom > .arrow:after { border-bottom-color: #4d545c; }
+.popover.left > .arrow:after {	border-left-color: #4d545c; }
+
+a,
+a:visited,
+.btn-link,
+.table a,
+.topbar > a,
+.topbar .navbar-default .navbar-nav > li > a,
+.topbar .nav > li > a,
+.navbar-default .navbar-brand,
+.table a,
+.navbar-default .navbar-nav > li > a,
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after,
+.pagination > li > a, .pagination > li > span,
+.dropdown-menu > li > a,
+.autotoc * {
+    color: #acadb1;
+}
+
+.pager li > a, .pager li > span {
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    color: #acadb1;
+}
+
+.pager li > a:hover,
+.pager li > span:hover { color: #686868; }
+
+.tiki .nav a,
+.fgal_top_bar a,
+#fgalexplorer a {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    color: #ededed;
+}
+
+.sf-arrows .sf-with-ul::after {
+    border-top-color: #ededed;
+}
+
+.tiki .nav a:hover,
+.fgal_top_bar a:hover,
+#fgalexplorer a:hover,
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    color: #007acc;
+}
+
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus { background: transparent;}
+
+.sitetitle > a,
+.pagetitle > a,
+a.pagetitle,
+.lead {
+    color: #ededed;
+}
+
+blockquote,
+.quote { border-left: 5px solid #ededed; }
+
+blockquote.pull-right { border-right: 5px solid #ededed; }
+
+.entry-content blockquote.alignleft {
+    border: solid #ededed;
+    border-width: 4px 0 0 0;
+}
+
+.cssmenu_vert.sf-arrows li > .sf-with-ul::after { border-left-color: #acadb1; }
+
+.topbar .cssmenu_horiz.sf-arrows > .menuSection0 > .sf-with-ul::after,
+.sf-arrows .sf-with-ul::after { border-top-color: #acadb1; }
+
+.panel-default,
+.module.panel-default { border-top-color: #ededed; }
+.panel-default .panel-title,
+.panel-default > .panel-heading { color: #ededed; }
+.panel-footer { background: #4d545c; }
+
+.well {
+    background: #5e656d;
+    border: 1px solid #50575f;
+}
+
+.jumbotron,
+.list-group-item { background: #616a73; }
+
+fieldset {  border: 1px solid #50575f; }
+
+legend {
+    color: #ededed;
+}
+
+.help-block,
+blockquote footer, blockquote small, blockquote .small {
+    color: #c8c8c8;
+}
+
+.has-success .help-block, .has-success .control-label, .has-success .radio, .has-success .checkbox, .has-success .radio-inline, .has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label {
+    color: #4d8c4e;
+}
+
+.tiki .table {
+    color: #959494;
+    border-color: #616a73;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th { border-color: #616a73; }
+
+.table > thead > tr > th { border-bottom-color: #616a73; }
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus,
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus,
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #ffffff;
+    background-color: #cccccc;
+    border-color: #cccccc;
+}
+
+.list-group-item { border-color: #cccccc; }
+
+.btn-default:hover, button:hover, button:focus, input.button, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #acadb1;
+    border-color: #acadb1; }

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 04:13:50
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:23:56
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\password_jq.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:3581717205b51455ed18be6-16225593%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14910114865b63bcbcbb1a68-35795545%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '3581717205b51455ed18be6-16225593',
+  'nocache_hash' => '14910114865b63bcbcbb1a68-35795545',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b51455ed208e5_84797161',
+  'unifunc' => 'content_5b63bcbcbc9161_11963111',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b51455ed208e5_84797161')) {function content_5b51455ed208e5_84797161($_smarty_tpl) {?><?php if (!is_callable('smarty_block_jq')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.jq.php';
+<?php if ($_valid && !is_callable('content_5b63bcbcbc9161_11963111')) {function content_5b63bcbcbc9161_11963111($_smarty_tpl) {?><?php if (!is_callable('smarty_block_jq')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.jq.php';
 ?>
 <?php $_smarty_tpl->smarty->_tag_stack[] = array('jq', array('notonready'=>true)); $_block_repeat=true; echo smarty_block_jq(array('notonready'=>true), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
 

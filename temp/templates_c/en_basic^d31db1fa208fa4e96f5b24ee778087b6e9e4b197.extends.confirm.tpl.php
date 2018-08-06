@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 04:22:49
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-06 09:09:49
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\access\confirm.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:15702622715b5147798a27a1-86308495%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:21379643095b67f43d028af6-01906688%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -35,7 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '15702622715b5147798a27a1-86308495',
+  'nocache_hash' => '21379643095b67f43d028af6-01906688',
   'function' => 
   array (
   ),
@@ -50,9 +50,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b514779a89fa9_92161880',
+  'unifunc' => 'content_5b67f43d0b1695_89688886',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b514779a89fa9_92161880')) {function content_5b514779a89fa9_92161880($_smarty_tpl) {?><?php if (!is_callable('smarty_function_service')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.service.php';
+<?php if ($_valid && !is_callable('content_5b67f43d0b1695_89688886')) {function content_5b67f43d0b1695_89688886($_smarty_tpl) {?><?php if (!is_callable('smarty_function_service')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.service.php';
 ?><!DOCTYPE html>
 <?php if (isset($_smarty_tpl->tpl_vars['confirm']->value)&&$_smarty_tpl->tpl_vars['confirm']->value==='y') {?>
 	<?php $_smarty_tpl->tpl_vars['confirm'] = new Smarty_variable(true, null, 0);?>
@@ -70,14 +70,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 " method="post">
 		<?php /*  Call merged included template "access/include_items.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('access/include_items.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '15702622715b5147798a27a1-86308495');
-content_5b51477991c5a2_85880659($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('access/include_items.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '21379643095b67f43d028af6-01906688');
+content_5b67f43d07ab88_42020352($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "access/include_items.tpl" */?>
 		<?php /*  Call merged included template "access/include_hidden.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('access/include_hidden.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '15702622715b5147798a27a1-86308495');
-content_5b5147799963a9_65671226($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('access/include_hidden.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '21379643095b67f43d028af6-01906688');
+content_5b67f43d08e404_08506654($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "access/include_hidden.tpl" */?>
 	</form>
@@ -89,8 +89,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php }?>
 	<?php /*  Call merged included template "access/include_footer.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('access/include_footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '15702622715b5147798a27a1-86308495');
-content_5b514779a101a1_98143360($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('access/include_footer.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '21379643095b67f43d028af6-01906688');
+content_5b67f43d099f97_03709102($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "access/include_footer.tpl" */?>
 
@@ -124,9 +124,9 @@ echo $_smarty_tpl->tpl_vars['confirmButtonClass']->value;
 	
 </div>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 04:22:49
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-06 09:09:49
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\access\include_items.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b51477991c5a2_85880659')) {function content_5b51477991c5a2_85880659($_smarty_tpl) {?><div class="form-group">
+<?php if ($_valid && !is_callable('content_5b67f43d07ab88_42020352')) {function content_5b67f43d07ab88_42020352($_smarty_tpl) {?><div class="form-group">
 	<h5><?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['customMsg']->value);?>
 </h5>
 	<?php if (isset($_smarty_tpl->tpl_vars['items']->value)&&count($_smarty_tpl->tpl_vars['items']->value)>0) {?>
@@ -164,9 +164,9 @@ if (!$_smarty_tpl->tpl_vars['name']->last) {?>, <?php }?>
 	<?php }?>
 </div>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 04:22:49
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-06 09:09:49
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\access\include_hidden.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b5147799963a9_65671226')) {function content_5b5147799963a9_65671226($_smarty_tpl) {?><?php if (!is_callable('smarty_function_ticket')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.ticket.php';
+<?php if ($_valid && !is_callable('content_5b67f43d08e404_08506654')) {function content_5b67f43d08e404_08506654($_smarty_tpl) {?><?php if (!is_callable('smarty_function_ticket')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.ticket.php';
 ?><?php if (isset($_smarty_tpl->tpl_vars['items']->value)) {?>
 	<?php $_smarty_tpl->tpl_vars['encodedItems'] = new Smarty_variable(json_encode($_smarty_tpl->tpl_vars['items']->value), null, 0);?>
 	<input type='hidden' name='items' value="<?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['encodedItems']->value);?>
@@ -184,9 +184,9 @@ if (!$_smarty_tpl->tpl_vars['name']->last) {?>, <?php }?>
 <?php }?>
 <?php echo smarty_function_ticket(array(),$_smarty_tpl);?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 04:22:49
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-06 09:09:49
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\access\include_footer.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b514779a101a1_98143360')) {function content_5b514779a101a1_98143360($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['prefs']->value['javascript_enabled']!=='y') {?>
+<?php if ($_valid && !is_callable('content_5b67f43d099f97_03709102')) {function content_5b67f43d099f97_03709102($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['prefs']->value['javascript_enabled']!=='y') {?>
 	<div class="modal-footer">
 		<a class="btn btn-default" href="<?php echo $_smarty_tpl->tpl_vars['extra']->value['referer'];?>
 ">

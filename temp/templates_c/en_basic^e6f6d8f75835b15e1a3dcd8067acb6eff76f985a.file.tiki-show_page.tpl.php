@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-show_page.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7401020465b513e895b50e2-10328865%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18721308625b63b79b4b9573-90563826%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -95,7 +95,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7401020465b513e895b50e2-10328865',
+  'nocache_hash' => '18721308625b63b79b4b9573-90563826',
   'function' => 
   array (
   ),
@@ -109,9 +109,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b513e89c5c479_27670642',
+  'unifunc' => 'content_5b63b79b9c27a3_21583284',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b513e89c5c479_27670642')) {function content_5b513e89c5c479_27670642($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_body_attributes')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.html_body_attributes.php';
+<?php if ($_valid && !is_callable('content_5b63b79b9c27a3_21583284')) {function content_5b63b79b9c27a3_21583284($_smarty_tpl) {?><?php if (!is_callable('smarty_function_html_body_attributes')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.html_body_attributes.php';
 if (!is_callable('smarty_function_modulelist')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.modulelist.php';
 if (!is_callable('smarty_function_feedback')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.feedback.php';
 if (!is_callable('smarty_function_breadcrumbs')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.breadcrumbs.php';
@@ -170,8 +170,8 @@ echo $_smarty_tpl->tpl_vars['prefs']->value['language'];
 	<?php if (!$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='top'||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='both') {?>
 		<?php /*  Call merged included template "tiki-wiki_topline.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89684196_02121772($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b51ee94_89527443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_topline.tpl" */?>
 	<?php }?>
@@ -207,8 +207,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if (!isset($_smarty_tpl->tpl_vars['hide_page_header']->value)||!$_smarty_tpl->tpl_vars['hide_page_header']->value) {?>
 		<?php /*  Call merged included template "tiki-flaggedrev_approval_header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-flaggedrev_approval_header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e897b4cd2_03663610($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-flaggedrev_approval_header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b634450_11691668($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-flaggedrev_approval_header.tpl" */?>
 	<?php }?>
@@ -217,8 +217,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ($_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='top') {?>
 			<?php /*  Call merged included template "tiki-page_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89806d74_16597049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b65b556_71155937($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-page_bar.tpl" */?>
 		<?php }?>
@@ -345,8 +345,8 @@ no_bl=y">
 			<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_freetags']=='y'&&$_smarty_tpl->tpl_vars['tiki_p_view_freetags']->value=='y'&&isset($_smarty_tpl->tpl_vars['freetags']->value['data'][0])&&$_smarty_tpl->tpl_vars['prefs']->value['freetags_show_middle']=='y') {?>
 				<?php /*  Call merged included template "freetag_list.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('freetag_list.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89979f45_76381816($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('freetag_list.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b76cc94_59216553($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "freetag_list.tpl" */?>
 			<?php }?>
@@ -394,8 +394,8 @@ page: %0/%1<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo sm
 			<?php if ($_smarty_tpl->tpl_vars['structure']->value=='y'&&(($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']!='bottom')&&($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']!='none'))) {?>
 				<?php /*  Call merged included template "tiki-wiki_structure_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e899a8d52_64077465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b793da1_46624165($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_structure_bar.tpl" */?>
 			<?php }?>
@@ -403,8 +403,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 			<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_wiki_ratings']=='y') {?>
 				<?php /*  Call merged included template "poll.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('poll.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89a0e660_87351505($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('poll.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b7ca8b5_36958958($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "poll.tpl" */?>
 			<?php }?>
@@ -439,8 +439,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ($_smarty_tpl->tpl_vars['structure']->value=='y'&&(($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']=='bottom')||($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']=='both'))) {?>
 			<?php /*  Call merged included template "tiki-wiki_structure_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e899a8d52_64077465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b793da1_46624165($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_structure_bar.tpl" */?>
 		<?php }?>
@@ -504,16 +504,16 @@ page: %0/%1<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo sm
 		<?php if (isset($_smarty_tpl->tpl_vars['wiki_authors_style']->value)&&$_smarty_tpl->tpl_vars['wiki_authors_style']->value!='none') {?>
 			<?php /*  Call merged included template "wiki_authors.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki_authors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89a77e09_25587662($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki_authors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b80cf33_53691566($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "wiki_authors.tpl" */?>
 		<?php }?>
 
 		<?php /*  Call merged included template "show_copyright.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('show_copyright.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('copyright_context'=>"wiki"), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89ad1b97_10522449($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('show_copyright.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('copyright_context'=>"wiki"), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b837ec6_89673038($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "show_copyright.tpl" */?>
 
@@ -534,8 +534,8 @@ echo smarty_modifier_sefurl($_smarty_tpl->tpl_vars['page']->value);?>
 	<?php if ($_smarty_tpl->tpl_vars['is_categorized']->value=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['feature_categories']=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['category_morelikethis_algorithm']!='') {?>
 		<?php /*  Call merged included template "category_related_objects.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('category_related_objects.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89aed128_24636951($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('category_related_objects.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b853450_82494275($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "category_related_objects.tpl" */?>
 	<?php }?>
@@ -543,8 +543,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if ($_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='bottom'||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='both') {?>
 		<?php /*  Call merged included template "tiki-wiki_topline.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89684196_02121772($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b51ee94_89527443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_topline.tpl" */?>
 	<?php }?>
@@ -553,8 +553,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ((!$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']||$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='bottom'||$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='both')&&$_smarty_tpl->tpl_vars['machine_translate_to_lang']->value=='') {?>
 			<?php /*  Call merged included template "tiki-page_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89806d74_16597049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b65b556_71155937($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-page_bar.tpl" */?>
 		<?php }?>
@@ -585,8 +585,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if (!$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='top'||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='both') {?>
 		<?php /*  Call merged included template "tiki-wiki_topline.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89684196_02121772($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b51ee94_89527443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_topline.tpl" */?>
 	<?php }?>
@@ -622,8 +622,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if (!isset($_smarty_tpl->tpl_vars['hide_page_header']->value)||!$_smarty_tpl->tpl_vars['hide_page_header']->value) {?>
 		<?php /*  Call merged included template "tiki-flaggedrev_approval_header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-flaggedrev_approval_header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e897b4cd2_03663610($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-flaggedrev_approval_header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b634450_11691668($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-flaggedrev_approval_header.tpl" */?>
 	<?php }?>
@@ -632,8 +632,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ($_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='top') {?>
 			<?php /*  Call merged included template "tiki-page_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89806d74_16597049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b65b556_71155937($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-page_bar.tpl" */?>
 		<?php }?>
@@ -760,8 +760,8 @@ no_bl=y">
 			<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_freetags']=='y'&&$_smarty_tpl->tpl_vars['tiki_p_view_freetags']->value=='y'&&isset($_smarty_tpl->tpl_vars['freetags']->value['data'][0])&&$_smarty_tpl->tpl_vars['prefs']->value['freetags_show_middle']=='y') {?>
 				<?php /*  Call merged included template "freetag_list.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('freetag_list.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89979f45_76381816($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('freetag_list.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b76cc94_59216553($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "freetag_list.tpl" */?>
 			<?php }?>
@@ -809,8 +809,8 @@ page: %0/%1<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo sm
 			<?php if ($_smarty_tpl->tpl_vars['structure']->value=='y'&&(($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']!='bottom')&&($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']!='none'))) {?>
 				<?php /*  Call merged included template "tiki-wiki_structure_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e899a8d52_64077465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b793da1_46624165($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_structure_bar.tpl" */?>
 			<?php }?>
@@ -818,8 +818,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 			<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_wiki_ratings']=='y') {?>
 				<?php /*  Call merged included template "poll.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('poll.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89a0e660_87351505($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('poll.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b7ca8b5_36958958($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "poll.tpl" */?>
 			<?php }?>
@@ -854,8 +854,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ($_smarty_tpl->tpl_vars['structure']->value=='y'&&(($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']=='bottom')||($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']=='both'))) {?>
 			<?php /*  Call merged included template "tiki-wiki_structure_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e899a8d52_64077465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b793da1_46624165($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_structure_bar.tpl" */?>
 		<?php }?>
@@ -919,16 +919,16 @@ page: %0/%1<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo sm
 		<?php if (isset($_smarty_tpl->tpl_vars['wiki_authors_style']->value)&&$_smarty_tpl->tpl_vars['wiki_authors_style']->value!='none') {?>
 			<?php /*  Call merged included template "wiki_authors.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki_authors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89a77e09_25587662($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki_authors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b80cf33_53691566($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "wiki_authors.tpl" */?>
 		<?php }?>
 
 		<?php /*  Call merged included template "show_copyright.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('show_copyright.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('copyright_context'=>"wiki"), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89ad1b97_10522449($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('show_copyright.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('copyright_context'=>"wiki"), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b837ec6_89673038($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "show_copyright.tpl" */?>
 
@@ -949,8 +949,8 @@ echo smarty_modifier_sefurl($_smarty_tpl->tpl_vars['page']->value);?>
 	<?php if ($_smarty_tpl->tpl_vars['is_categorized']->value=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['feature_categories']=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['category_morelikethis_algorithm']!='') {?>
 		<?php /*  Call merged included template "category_related_objects.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('category_related_objects.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89aed128_24636951($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('category_related_objects.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b853450_82494275($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "category_related_objects.tpl" */?>
 	<?php }?>
@@ -958,8 +958,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if ($_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='bottom'||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='both') {?>
 		<?php /*  Call merged included template "tiki-wiki_topline.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89684196_02121772($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b51ee94_89527443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_topline.tpl" */?>
 	<?php }?>
@@ -968,8 +968,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ((!$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']||$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='bottom'||$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='both')&&$_smarty_tpl->tpl_vars['machine_translate_to_lang']->value=='') {?>
 			<?php /*  Call merged included template "tiki-page_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89806d74_16597049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b65b556_71155937($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-page_bar.tpl" */?>
 		<?php }?>
@@ -1003,8 +1003,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if (!$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='top'||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='both') {?>
 		<?php /*  Call merged included template "tiki-wiki_topline.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89684196_02121772($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b51ee94_89527443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_topline.tpl" */?>
 	<?php }?>
@@ -1040,8 +1040,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if (!isset($_smarty_tpl->tpl_vars['hide_page_header']->value)||!$_smarty_tpl->tpl_vars['hide_page_header']->value) {?>
 		<?php /*  Call merged included template "tiki-flaggedrev_approval_header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-flaggedrev_approval_header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e897b4cd2_03663610($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-flaggedrev_approval_header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b634450_11691668($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-flaggedrev_approval_header.tpl" */?>
 	<?php }?>
@@ -1050,8 +1050,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ($_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='top') {?>
 			<?php /*  Call merged included template "tiki-page_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89806d74_16597049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b65b556_71155937($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-page_bar.tpl" */?>
 		<?php }?>
@@ -1178,8 +1178,8 @@ no_bl=y">
 			<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_freetags']=='y'&&$_smarty_tpl->tpl_vars['tiki_p_view_freetags']->value=='y'&&isset($_smarty_tpl->tpl_vars['freetags']->value['data'][0])&&$_smarty_tpl->tpl_vars['prefs']->value['freetags_show_middle']=='y') {?>
 				<?php /*  Call merged included template "freetag_list.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('freetag_list.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89979f45_76381816($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('freetag_list.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b76cc94_59216553($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "freetag_list.tpl" */?>
 			<?php }?>
@@ -1227,8 +1227,8 @@ page: %0/%1<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo sm
 			<?php if ($_smarty_tpl->tpl_vars['structure']->value=='y'&&(($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']!='bottom')&&($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']!='none'))) {?>
 				<?php /*  Call merged included template "tiki-wiki_structure_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e899a8d52_64077465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b793da1_46624165($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_structure_bar.tpl" */?>
 			<?php }?>
@@ -1236,8 +1236,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 			<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_wiki_ratings']=='y') {?>
 				<?php /*  Call merged included template "poll.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('poll.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89a0e660_87351505($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('poll.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b7ca8b5_36958958($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "poll.tpl" */?>
 			<?php }?>
@@ -1272,8 +1272,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ($_smarty_tpl->tpl_vars['structure']->value=='y'&&(($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']=='bottom')||($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']=='both'))) {?>
 			<?php /*  Call merged included template "tiki-wiki_structure_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e899a8d52_64077465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b793da1_46624165($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_structure_bar.tpl" */?>
 		<?php }?>
@@ -1337,16 +1337,16 @@ page: %0/%1<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo sm
 		<?php if (isset($_smarty_tpl->tpl_vars['wiki_authors_style']->value)&&$_smarty_tpl->tpl_vars['wiki_authors_style']->value!='none') {?>
 			<?php /*  Call merged included template "wiki_authors.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki_authors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89a77e09_25587662($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki_authors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b80cf33_53691566($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "wiki_authors.tpl" */?>
 		<?php }?>
 
 		<?php /*  Call merged included template "show_copyright.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('show_copyright.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('copyright_context'=>"wiki"), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89ad1b97_10522449($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('show_copyright.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('copyright_context'=>"wiki"), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b837ec6_89673038($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "show_copyright.tpl" */?>
 
@@ -1367,8 +1367,8 @@ echo smarty_modifier_sefurl($_smarty_tpl->tpl_vars['page']->value);?>
 	<?php if ($_smarty_tpl->tpl_vars['is_categorized']->value=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['feature_categories']=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['category_morelikethis_algorithm']!='') {?>
 		<?php /*  Call merged included template "category_related_objects.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('category_related_objects.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89aed128_24636951($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('category_related_objects.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b853450_82494275($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "category_related_objects.tpl" */?>
 	<?php }?>
@@ -1376,8 +1376,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if ($_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='bottom'||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='both') {?>
 		<?php /*  Call merged included template "tiki-wiki_topline.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89684196_02121772($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b51ee94_89527443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_topline.tpl" */?>
 	<?php }?>
@@ -1386,8 +1386,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ((!$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']||$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='bottom'||$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='both')&&$_smarty_tpl->tpl_vars['machine_translate_to_lang']->value=='') {?>
 			<?php /*  Call merged included template "tiki-page_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89806d74_16597049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b65b556_71155937($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-page_bar.tpl" */?>
 		<?php }?>
@@ -1428,8 +1428,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if (!$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='top'||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='both') {?>
 		<?php /*  Call merged included template "tiki-wiki_topline.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89684196_02121772($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b51ee94_89527443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_topline.tpl" */?>
 	<?php }?>
@@ -1465,8 +1465,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if (!isset($_smarty_tpl->tpl_vars['hide_page_header']->value)||!$_smarty_tpl->tpl_vars['hide_page_header']->value) {?>
 		<?php /*  Call merged included template "tiki-flaggedrev_approval_header.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-flaggedrev_approval_header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e897b4cd2_03663610($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-flaggedrev_approval_header.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b634450_11691668($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-flaggedrev_approval_header.tpl" */?>
 	<?php }?>
@@ -1475,8 +1475,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ($_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='top') {?>
 			<?php /*  Call merged included template "tiki-page_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89806d74_16597049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b65b556_71155937($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-page_bar.tpl" */?>
 		<?php }?>
@@ -1603,8 +1603,8 @@ no_bl=y">
 			<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_freetags']=='y'&&$_smarty_tpl->tpl_vars['tiki_p_view_freetags']->value=='y'&&isset($_smarty_tpl->tpl_vars['freetags']->value['data'][0])&&$_smarty_tpl->tpl_vars['prefs']->value['freetags_show_middle']=='y') {?>
 				<?php /*  Call merged included template "freetag_list.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('freetag_list.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89979f45_76381816($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('freetag_list.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b76cc94_59216553($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "freetag_list.tpl" */?>
 			<?php }?>
@@ -1652,8 +1652,8 @@ page: %0/%1<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo sm
 			<?php if ($_smarty_tpl->tpl_vars['structure']->value=='y'&&(($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']!='bottom')&&($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']!='none'))) {?>
 				<?php /*  Call merged included template "tiki-wiki_structure_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e899a8d52_64077465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b793da1_46624165($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_structure_bar.tpl" */?>
 			<?php }?>
@@ -1661,8 +1661,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 			<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_wiki_ratings']=='y') {?>
 				<?php /*  Call merged included template "poll.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('poll.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89a0e660_87351505($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('poll.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b7ca8b5_36958958($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "poll.tpl" */?>
 			<?php }?>
@@ -1697,8 +1697,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ($_smarty_tpl->tpl_vars['structure']->value=='y'&&(($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']=='bottom')||($_smarty_tpl->tpl_vars['prefs']->value['wiki_structure_bar_position']=='both'))) {?>
 			<?php /*  Call merged included template "tiki-wiki_structure_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e899a8d52_64077465($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_structure_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b793da1_46624165($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_structure_bar.tpl" */?>
 		<?php }?>
@@ -1762,16 +1762,16 @@ page: %0/%1<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo sm
 		<?php if (isset($_smarty_tpl->tpl_vars['wiki_authors_style']->value)&&$_smarty_tpl->tpl_vars['wiki_authors_style']->value!='none') {?>
 			<?php /*  Call merged included template "wiki_authors.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki_authors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89a77e09_25587662($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki_authors.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b80cf33_53691566($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "wiki_authors.tpl" */?>
 		<?php }?>
 
 		<?php /*  Call merged included template "show_copyright.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('show_copyright.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('copyright_context'=>"wiki"), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89ad1b97_10522449($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('show_copyright.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('copyright_context'=>"wiki"), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b837ec6_89673038($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "show_copyright.tpl" */?>
 
@@ -1792,8 +1792,8 @@ echo smarty_modifier_sefurl($_smarty_tpl->tpl_vars['page']->value);?>
 	<?php if ($_smarty_tpl->tpl_vars['is_categorized']->value=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['feature_categories']=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['category_morelikethis_algorithm']!='') {?>
 		<?php /*  Call merged included template "category_related_objects.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('category_related_objects.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89aed128_24636951($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('category_related_objects.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b853450_82494275($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "category_related_objects.tpl" */?>
 	<?php }?>
@@ -1801,8 +1801,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php if ($_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='bottom'||$_smarty_tpl->tpl_vars['prefs']->value['wiki_topline_position']=='both') {?>
 		<?php /*  Call merged included template "tiki-wiki_topline.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89684196_02121772($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-wiki_topline.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b51ee94_89527443($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-wiki_topline.tpl" */?>
 	<?php }?>
@@ -1811,8 +1811,8 @@ $_smarty_tpl = array_pop($_tpl_stack);
 		<?php if ((!$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']||$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='bottom'||$_smarty_tpl->tpl_vars['prefs']->value['page_bar_position']=='both')&&$_smarty_tpl->tpl_vars['machine_translate_to_lang']->value=='') {?>
 			<?php /*  Call merged included template "tiki-page_bar.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89806d74_16597049($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('tiki-page_bar.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b65b556_71155937($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "tiki-page_bar.tpl" */?>
 		<?php }?>
@@ -1852,9 +1852,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
 	<?php $_smarty_tpl->smarty->loadPlugin('Smarty_Internal_Debug'); Smarty_Internal_Debug::display_debug($_smarty_tpl); ?>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-wiki_topline.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e89684196_02121772')) {function content_5b513e89684196_02121772($_smarty_tpl) {?><?php if (!is_callable('smarty_function_breadcrumbs')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.breadcrumbs.php';
+<?php if ($_valid && !is_callable('content_5b63b79b51ee94_89527443')) {function content_5b63b79b51ee94_89527443($_smarty_tpl) {?><?php if (!is_callable('smarty_function_breadcrumbs')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.breadcrumbs.php';
 if (!is_callable('smarty_function_icon')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.icon.php';
 if (!is_callable('smarty_modifier_sefurl')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.sefurl.php';
 if (!is_callable('smarty_function_object_title')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.object_title.php';
@@ -1909,8 +1909,8 @@ if (!is_callable('smarty_function_favorite')) include 'C:/xampp/htdocs/tikiwiki/
 						<!--span class="btn-i18n" -->
 						<?php /*  Call merged included template "translated-lang.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('translated-lang.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('object_type'=>'wiki page'), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e896ce522_97437246($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('translated-lang.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('object_type'=>'wiki page'), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b551b11_38095901($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "translated-lang.tpl" */?>
 						<!--/span -->
@@ -2333,9 +2333,9 @@ if (!empty($_capture_buffer)) {
 	</div>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\translated-lang.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e896ce522_97437246')) {function content_5b513e896ce522_97437246($_smarty_tpl) {?><?php if (!is_callable('smarty_function_icon')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.icon.php';
+<?php if ($_valid && !is_callable('content_5b63b79b551b11_38095901')) {function content_5b63b79b551b11_38095901($_smarty_tpl) {?><?php if (!is_callable('smarty_function_icon')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.icon.php';
 if (!is_callable('smarty_function_bootstrap_modal')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.bootstrap_modal.php';
 ?>
 
@@ -2559,9 +2559,9 @@ if (!empty($_capture_buffer)) {
 	</div>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-flaggedrev_approval_header.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e897b4cd2_03663610')) {function content_5b513e897b4cd2_03663610($_smarty_tpl) {?><?php if (!is_callable('smarty_block_remarksbox')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.remarksbox.php';
+<?php if ($_valid && !is_callable('content_5b63b79b634450_11691668')) {function content_5b63b79b634450_11691668($_smarty_tpl) {?><?php if (!is_callable('smarty_block_remarksbox')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.remarksbox.php';
 if (!is_callable('smarty_block_self_link')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.self_link.php';
 if (!is_callable('smarty_modifier_sefurl')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.sefurl.php';
 ?>
@@ -2628,9 +2628,9 @@ latest version<?php $_block_content = ob_get_clean(); $_block_repeat=false; echo
 	<?php }?>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-page_bar.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e89806d74_16597049')) {function content_5b513e89806d74_16597049($_smarty_tpl) {?><?php if (!is_callable('smarty_function_bootstrap_modal')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.bootstrap_modal.php';
+<?php if ($_valid && !is_callable('content_5b63b79b65b556_71155937')) {function content_5b63b79b65b556_71155937($_smarty_tpl) {?><?php if (!is_callable('smarty_function_bootstrap_modal')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.bootstrap_modal.php';
 if (!is_callable('smarty_function_permission_link')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.permission_link.php';
 if (!is_callable('smarty_function_button')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.button.php';
 if (!is_callable('smarty_modifier_sefurl')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.sefurl.php';
@@ -2694,8 +2694,8 @@ if (!is_callable('smarty_function_attachments')) include 'C:/xampp/htdocs/tikiwi
 			<?php $_smarty_tpl->_capture_stack[0][] = array('default', 'wiki_discussion_string', null); ob_start(); ?>
 				<?php /*  Call merged included template "wiki-discussion.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki-discussion.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e898416f8_67507640($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki-discussion.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b692064_85156608($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "wiki-discussion.tpl" */?> [tiki-index.php?page=<?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['page']->value,'url');?>
 |<?php echo $_smarty_tpl->tpl_vars['page']->value;?>
@@ -2869,8 +2869,8 @@ if (!empty($_capture_buffer)) {
 	<?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_wiki_discuss']=='y'&&$_smarty_tpl->tpl_vars['show_page']->value=='y'&&$_smarty_tpl->tpl_vars['tiki_p_forum_post']->value=='y'&&$_smarty_tpl->tpl_vars['prefs']->value['wiki_discuss_visibility']=='above') {?>
 			<?php /*  Call merged included template "discussinforum.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('discussinforum.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e89893791_81022727($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('discussinforum.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b6e40f0_42983926($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "discussinforum.tpl" */?>
 	<?php }?>
@@ -2890,8 +2890,8 @@ echo smarty_function_attachments(array('_id'=>$_smarty_tpl->tpl_vars['page']->va
 } else {
 /*  Call merged included template "attachments.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('attachments.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e898ba895_99425199($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('attachments.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b6ff682_04251409($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "attachments.tpl" */
 }
@@ -2900,20 +2900,20 @@ if ($_smarty_tpl->tpl_vars['prefs']->value['feature_wiki_comments']=='y'&&$_smar
 <?php }?>
 
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\wiki-discussion.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e898416f8_67507640')) {function content_5b513e898416f8_67507640($_smarty_tpl) {?>Use this thread to discuss the page:<?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php if ($_valid && !is_callable('content_5b63b79b692064_85156608')) {function content_5b63b79b692064_85156608($_smarty_tpl) {?>Use this thread to discuss the page:<?php }} ?>
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\discussinforum.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e89893791_81022727')) {function content_5b513e89893791_81022727($_smarty_tpl) {?><?php if (!is_callable('smarty_block_tr')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tr.php';
+<?php if ($_valid && !is_callable('content_5b63b79b6e40f0_42983926')) {function content_5b63b79b6e40f0_42983926($_smarty_tpl) {?><?php if (!is_callable('smarty_block_tr')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tr.php';
 if (!is_callable('smarty_function_button')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.button.php';
 ?><div id="discuss-forum">
 	<h1 >Page discussion</h1>
 	<?php $_smarty_tpl->_capture_stack[0][] = array('default', 'wiki_discussion_string', null); ob_start();
 /*  Call merged included template "wiki-discussion.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki-discussion.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '7401020465b513e895b50e2-10328865');
-content_5b513e898416f8_67507640($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('wiki-discussion.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0, '18721308625b63b79b4b9573-90563826');
+content_5b63b79b692064_85156608($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "wiki-discussion.tpl" */?> [tiki-index.php?page=<?php echo smarty_modifier_escape($_smarty_tpl->tpl_vars['page']->value,'url');?>
 |<?php echo $_smarty_tpl->tpl_vars['page']->value;?>
@@ -2948,9 +2948,9 @@ $_tmp5=ob_get_clean();?><?php echo smarty_function_button(array('_keepall'=>'y',
 	<?php }?>
 </div>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\attachments.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e898ba895_99425199')) {function content_5b513e898ba895_99425199($_smarty_tpl) {?><?php if (!is_callable('smarty_function_cycle')) include 'C:\\xampp\\htdocs\\tikiwiki\\tiki-18.1\\vendor_bundled\\vendor\\smarty\\smarty\\libs\\plugins\\function.cycle.php';
+<?php if ($_valid && !is_callable('content_5b63b79b6ff682_04251409')) {function content_5b63b79b6ff682_04251409($_smarty_tpl) {?><?php if (!is_callable('smarty_function_cycle')) include 'C:\\xampp\\htdocs\\tikiwiki\\tiki-18.1\\vendor_bundled\\vendor\\smarty\\smarty\\libs\\plugins\\function.cycle.php';
 if (!is_callable('smarty_modifier_iconify')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.iconify.php';
 if (!is_callable('smarty_modifier_userlink')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.userlink.php';
 if (!is_callable('smarty_modifier_tiki_short_datetime')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.tiki_short_datetime.php';
@@ -3168,9 +3168,9 @@ echo smarty_function_popup(array('fullhtml'=>"1",'center'=>true,'text'=>Smarty::
 </div>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\freetag_list.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e89979f45_76381816')) {function content_5b513e89979f45_76381816($_smarty_tpl) {?><?php if (!is_callable('smarty_function_icon')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.icon.php';
+<?php if ($_valid && !is_callable('content_5b63b79b76cc94_59216553')) {function content_5b63b79b76cc94_59216553($_smarty_tpl) {?><?php if (!is_callable('smarty_function_icon')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.icon.php';
 ?><?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_freetags']=='y'&&$_smarty_tpl->tpl_vars['tiki_p_view_freetags']->value=='y'&&isset($_smarty_tpl->tpl_vars['freetags']->value['data'][0])) {?>
 	<div class="freetaglist"><?php echo smarty_function_icon(array('name'=>"tags",'class'=>"tips btn btn-link btn-sm",'title'=>":Browse Tags",'href'=>"tiki-browse_freetags.php"),$_smarty_tpl);?>
 
@@ -3214,9 +3214,9 @@ if (strstr($_SERVER['REQUEST_URI'],'?')) {?>&amp;<?php } else { ?>?<?php }?>delT
 		<?php }?>
 	</div>
 <?php }?><?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-wiki_structure_bar.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e899a8d52_64077465')) {function content_5b513e899a8d52_64077465($_smarty_tpl) {?><?php if (!is_callable('smarty_function_icon')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.icon.php';
+<?php if ($_valid && !is_callable('content_5b63b79b793da1_46624165')) {function content_5b63b79b793da1_46624165($_smarty_tpl) {?><?php if (!is_callable('smarty_function_icon')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.icon.php';
 if (!is_callable('smarty_function_menu')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.menu.php';
 if (!is_callable('smarty_block_self_link')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.self_link.php';
 if (!is_callable('smarty_function_sefurl')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.sefurl.php';
@@ -3366,9 +3366,9 @@ $_block_content = ob_get_clean(); $_block_repeat=false; echo smarty_block_self_l
 	</div>
 </div>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\poll.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e89a0e660_87351505')) {function content_5b513e89a0e660_87351505($_smarty_tpl) {?><?php if (!is_callable('smarty_function_button')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.button.php';
+<?php if ($_valid && !is_callable('content_5b63b79b7ca8b5_36958958')) {function content_5b63b79b7ca8b5_36958958($_smarty_tpl) {?><?php if (!is_callable('smarty_function_button')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.button.php';
 ?><?php if (!empty($_smarty_tpl->tpl_vars['ratings']->value)&&$_smarty_tpl->tpl_vars['tiki_p_wiki_view_ratings']->value=='y') {?>
 	<div style="display:inline;float:right;padding: 1px 3px; border:1px solid #666666; -moz-border-radius : 10px;font-size:.8em;">
 		<div id="pollopen">
@@ -3494,9 +3494,9 @@ $_smarty_tpl->tpl_vars['option']->_loop = true;
 	</div>
 <?php }?>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\wiki_authors.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e89a77e09_25587662')) {function content_5b513e89a77e09_25587662($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_userlink')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.userlink.php';
+<?php if ($_valid && !is_callable('content_5b63b79b80cf33_53691566')) {function content_5b63b79b80cf33_53691566($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_userlink')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.userlink.php';
 if (!is_callable('smarty_modifier_tiki_long_datetime')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.tiki_long_datetime.php';
 if (!is_callable('smarty_block_tr')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.tr.php';
 ?><em><?php if ($_smarty_tpl->tpl_vars['wiki_authors_style']->value=='business') {?>
@@ -3622,9 +3622,9 @@ Page approved by %0 on %1<?php $_block_content = ob_get_clean(); $_block_repeat=
 	<?php }?>
 <?php }?>
 </em><?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\show_copyright.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e89ad1b97_10522449')) {function content_5b513e89ad1b97_10522449($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_sefurl')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.sefurl.php';
+<?php if ($_valid && !is_callable('content_5b63b79b837ec6_89673038')) {function content_5b63b79b837ec6_89673038($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_sefurl')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\modifier.sefurl.php';
 ?><?php if ($_smarty_tpl->tpl_vars['prefs']->value['feature_copyright']=='y') {?>
 	<?php if ($_smarty_tpl->tpl_vars['prefs']->value['wikiLicensePage']) {?>
 		<?php $_smarty_tpl->_capture_stack[0][] = array('copyright_content', null, null); ob_start(); ?>
@@ -3658,9 +3658,9 @@ if (!empty($_capture_buffer)) {
 		<?php }?>
 	<?php }?>
 <?php }?><?php }} ?>
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 03:44:41
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-03 04:02:03
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\category_related_objects.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5b513e89aed128_24636951')) {function content_5b513e89aed128_24636951($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5b63b79b853450_82494275')) {function content_5b63b79b853450_82494275($_smarty_tpl) {?>
 <?php if (!empty($_smarty_tpl->tpl_vars['category_related_objects']->value)) {?>
 <div class="related">
 	<h4>Related content</h4>

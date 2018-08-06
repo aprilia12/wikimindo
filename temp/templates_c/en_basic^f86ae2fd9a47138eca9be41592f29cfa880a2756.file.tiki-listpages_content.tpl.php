@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2018-07-20 04:40:01
+<?php /* Smarty version Smarty-3.1.21, created on 2018-08-06 08:50:54
          compiled from "C:\xampp\htdocs\tikiwiki\tiki-18.1\templates\tiki-listpages_content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:19668958125b514b81e86d79-12358260%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16413457775b67efce776054-21718467%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '19668958125b514b81e86d79-12358260',
+  'nocache_hash' => '16413457775b67efce776054-21718467',
   'function' => 
   array (
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_5b514b8204a534_24416225',
+  'unifunc' => 'content_5b67efce87fa99_86513431',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5b514b8204a534_24416225')) {function content_5b514b8204a534_24416225($_smarty_tpl) {?><?php if (!is_callable('smarty_function_initials_filter_links')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.initials_filter_links.php';
+<?php if ($_valid && !is_callable('content_5b67efce87fa99_86513431')) {function content_5b67efce87fa99_86513431($_smarty_tpl) {?><?php if (!is_callable('smarty_function_initials_filter_links')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.initials_filter_links.php';
 if (!is_callable('smarty_function_select_all')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.select_all.php';
 if (!is_callable('smarty_block_self_link')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\block.self_link.php';
 if (!is_callable('smarty_function_object_link')) include 'C:/xampp/htdocs/tikiwiki/tiki-18.1/lib/smarty_tiki\\function.object_link.php';
