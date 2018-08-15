@@ -1,1 +1,1 @@
-a:2:{i:0;s:20:"tiki_p_change_events";i:1;s:18:"tiki_p_view_events";}
+a:4:{i:0;s:21:"tiki_p_admin_trackers";i:1;s:20:"tiki_p_change_events";i:2;s:31:"tiki_p_tracker_view_attachments";i:3;s:18:"tiki_p_view_events";}
