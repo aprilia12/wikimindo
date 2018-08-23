@@ -1,1 +1,1 @@
-a:1:{i:0;s:12:"tiki_p_admin";}
+a:4:{i:0;s:12:"tiki_p_admin";i:1;s:21:"tiki_p_admin_shoutbox";i:2;s:20:"tiki_p_post_shoutbox";i:3;s:20:"tiki_p_view_shoutbox";}
